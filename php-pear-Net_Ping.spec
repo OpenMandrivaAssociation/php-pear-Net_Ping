@@ -7,11 +7,11 @@
 
 Summary:	%{_pearname} - execute ping
 Name:		php-pear-%{_pearname}
-Version:	2.4.1
-Release:	%mkrel 3
+Version:	2.4.4
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Net_Ping/
 Requires(post): php-pear
 Requires(preun): php-pear
@@ -74,7 +74,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/{docs,tests}
+%doc %{_pearname}-%{version}/docs
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
 
