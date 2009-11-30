@@ -5,8 +5,8 @@
 %define		_requires_exceptions pear(../../Ping.php)\\|pear(../Ping.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	2.4.4
-Release:	%mkrel 3
+Version:	2.4.5
+Release:	%mkrel 1
 Summary:	Execute ping
 License:	PHP License
 Group:		Development/PHP
