@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	2.4.5
-Release:	5
+Release:	6
 Summary:	Execute ping
 License:	PHP License
 Group:		Development/PHP
